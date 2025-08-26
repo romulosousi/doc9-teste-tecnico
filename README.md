@@ -39,4 +39,10 @@ Esse script baixa automaticamente todas as faturas de um site, filtra apenas as 
 
 - **Bibliotecas padrão do Python:** Nenhuma biblioteca externa é necessária; todas usadas são padrão do Python (`os`, `csv`, `datetime`, `concurrent.futures`, `requests`).
 
-- **Observação sobre tempo de execução:** No computador local (Aracaju - Sergipe), o tempo médio foi de 2 segundos. No Google Colab, devido à proximidade do servidor e outras variáveis, o tempo caiu para cerca de 0,20 segundos.
+- **Observação sobre tempo de execução:** No computador local (Aracaju - Sergipe), o tempo médio foi de 2 segundos. No Google Colab, devido à proximidade do servidor e outras variáveis, o tempo caiu para cerca de 1,2 segundos.
+
+### Execução Local
+![Execução Local](images/Local.png)
+
+### Execução no Google Colab
+![Execução Colab](images/Colab.png)
