@@ -20,11 +20,13 @@ Esse script baixa automaticamente todas as faturas de um site, filtra apenas as 
 
 ## Configuração e Execução
 1. **Clonar o repositório**
+   ```bash 
    git clone https://github.com/romulosousi/doc9-teste-tecnico.git 
    cd doc9-teste-tecnico
-2. **Executar o script principal**
+3. **Executar o script principal**
+   ```bash
     `python main.py`
-3. **Resultado esperado** 
+5. **Resultado esperado** 
     - Um arquivo chamado faturas.csv será gerado na raiz do projeto, contendo as colunas: 
         - ID da Fatura
         - Data da Fatura
