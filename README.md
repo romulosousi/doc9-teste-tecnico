@@ -25,7 +25,7 @@ Esse script baixa automaticamente todas as faturas de um site, filtra apenas as 
    cd doc9-teste-tecnico
 3. **Executar o script principal**
    ```bash
-    `python main.py`
+   python main.py
 5. **Resultado esperado** 
     - Um arquivo chamado faturas.csv será gerado na raiz do projeto, contendo as colunas: 
         - ID da Fatura
