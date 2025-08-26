@@ -9,16 +9,16 @@ import config
 # Início da contagem
 start_time = time.time()
 
-# Criar pasta de destino
 os.makedirs(config.SAVE_DIR, exist_ok=True)
 
-# Obter dados da tabela
+# Post para buscar dados
 res = requests.post(config.SEED_URL)
-res.raise_for_status()
 data = res.json()["data"]
+
 
 # Filtrar faturas vencidas ou de hoje
 faturas_validas = filtrar_faturas_vencidas(data)
+print(f"\nTotal de faturas vencidas ou de hoje: {len(faturas_validas)}\n")
 
 # Baixar faturas em paralelo
 baixar_faturas_paralelo(faturas_validas, config.BASE_URL, config.SAVE_DIR)
