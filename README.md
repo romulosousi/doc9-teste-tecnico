@@ -15,7 +15,7 @@ Esse script baixa automaticamente todas as faturas de um site, filtra apenas as 
 
 
 ## Requisitos
-- Python 3.13.5
+- Python 3.1x
 - Nenhuma biblioteca externa é necessária; todas as usadas são padrão do Python (`os`, `csv`, `datetime`, `concurrent.futures`, `requests`).
 
 ## Configuração e Execução
